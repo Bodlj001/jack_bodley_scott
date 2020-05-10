@@ -1,1 +1,37 @@
 // Specific CSS for your home-page
+
+.navbar-lewagon {
+  background-color: rgab(0,0,0,0);
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  padding: 5px 0px 0px 23px;
+}
+
+.name {
+  font-size: 4vw;
+  padding-top: 7px;
+  color: #04FFE1;
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    .whole-page {
+      width: 100vw;
+      height: 100vh;
+      background-image: url("MyBg.svg");
+      background-size: cover;
+    }
+  }
+}
+
+.whole-page {
+  background-color: blue;
+}
+
+
