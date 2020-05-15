@@ -14,21 +14,80 @@
 }
 
 .name {
-  font-size: 4vw;
-  padding-top: 7px;
-  color: #04FFE1;
+  font-size: 3vw;
+  text-decoration: underline;
+  padding-top: 5vh;
+  color: white;
+  padding: 0px 10px 0px 10px;
+  margin: 5vh 0px 0px 7vh;
 }
 
-@media only screen and (min-width: 1200px) {
+.box {
+    padding: 0px 10px 0px 10px;
+    margin: 15px 0px 0px 30px;
+    border: solid 1px rgba(0,0,0,0.2);
+    border-radius: 9px;
+    background-color: #E0642D;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.2);
+  }
+
+// @media only screen and (min-width: 1400px) {
+//   body {
+//     .whole-page {
+//       width: 100vw;
+//       height: 100vh;
+//       background-image: url("Nb-1440-768.jpg");
+//       background-size: cover;
+//     }
+//   }
+// }
+
+@media only screen and (min-width: 1000px) {
   body {
     .whole-page {
       width: 100vw;
       height: 100vh;
-      background-image: url("MyBg.svg");
+      background-image: url("detsBG.jpg");
       background-size: cover;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      overflow-x: hidden
     }
   }
 }
+
+// @media only screen and (min-width: 1000px) {
+//   body {
+//     .whole-page {
+//       width: 100vw;
+//       height: 100vh;
+//       background-image: url("Nb-1336-768.jpg");
+//       background-size: cover;
+//     }
+//   }
+// }
+
+// @media only screen and (min-width: 1250px) {
+//   body {
+//     .whole-page {
+//       width: 100vw;
+//       height: 100vh;
+//       background-image: url("Nb-1280-800.jpg");
+//       background-size: cover;
+//     }
+//   }
+// }
+
+// @media only screen and (min-width: 1000px) {
+//   body {
+//     .whole-page {
+//       width: 100vw;
+//       height: 100vh;
+//       background-image: url("Nb-1024-768.jpg");
+//       background-size: cover;
+//     }
+//   }
+// }
 
 .whole-page {
   background-color: blue;
